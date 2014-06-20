@@ -1,0 +1,164 @@
+/********* AUTEUR INFORMATION  ************/
+/*
+- Bassirou NDIAYE
+- Adresse : 49 rue des Etdiants 92400 Courbevoie
+- Email : ndiayebasse@gmail.com ;
+
+*/
+/********* DECLARATION GLOBAL ***********/
+body {
+font-family: Trebuchet MS,Arial,sans-serif;
+color: #3c3c3c;
+font-size: 100%;
+}
+
+h1 {
+font-size: 52px;
+line-height: 52px;
+color: #f17f21;
+}
+h2 {
+font-size: 35px;
+line-height: 35px;
+color: #524D4D;
+}
+/********* HEADER ************/
+
+header {
+height: 55px;
+background: #F5F5F6;
+border-bottom: 5px solid #E0E0E0;
+
+}
+header nav {
+
+}
+
+header nav ul {
+    margin-top: 15px;
+    float: right;
+
+}
+header nav ul li {
+    display:inline-block; /* On transmets les propriétés des éléments inline mais en conservant celles des blocs */
+}
+header nav ul li a {
+  font-size: 18px;
+  font-weight: normal;
+  color: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+ text-decoration: none;
+ color: #F17F21;
+}
+
+
+/********* CONTENT************/
+.container-fluid {
+margin-right: auto;
+margin-left: auto;
+padding-left: 0px;
+padding-right: 0px;
+}
+.wrap-header, .wrap-section, .wrap-footer {
+  width: 980px;
+  margin: 0 auto;
+}
+section {
+
+}
+article {
+ background: url('../images/separate.png') no-repeat top;
+ padding: 15px;
+ padding-top: 35px;
+}
+article p{
+ font-size: 16px;
+line-height: 23px;
+margin: 0 0 15px
+}
+article img {
+ float: left;
+}
+figure {
+ padding: 15px;
+ padding-top: 35px;
+}
+figure p{
+font-size: 16px;
+line-height: 23px;
+margin: 0 0 15px
+}
+figure img{
+ float: right;
+}
+.buttons {
+	padding: 10px 224px 30px 224px;
+}
+
+
+
+/********* FOOTER ************/
+footer {
+
+}
+.footer-top {
+	background: #4D4D4D;
+	height: 78px;
+	border-top: 5px solid #C9C9C9;
+    line-height: 78px;
+}
+.footer-top nav {
+	
+    line-height: 2px;
+}
+nav.footer-menu {
+ margin-top: 2px;
+}
+nav.footer-menu ul li{
+ padding-left: 15px;
+ border-right: 1px solid #ddd;
+padding: 10px;
+}
+nav.footer-menu ul li:last-child {
+	border-right:none;
+}
+.footer-top nav ul{
+    margin-top: 24px;
+    float: right;
+    padding-left: 2px;	
+    
+}
+.footer-top nav ul li {
+	padding-left: 6px;
+    display:inline-block;
+}
+.footer-top nav ul li a{
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+}
+.footer-top nav ul li a:hover{
+	color: #fff;
+}
+
+.footer-bottom {
+  background: #F3F3F3;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.footer-bottom span{
+ font-size: 11px;
+line-height: 23px;
+margin: 0 0 15px 
+}
+.copyright {
+	float: left;
+	
+}
+.logoJquery img {
+	float: right;
+	
+}
